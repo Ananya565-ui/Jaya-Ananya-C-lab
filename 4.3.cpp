@@ -3,7 +3,7 @@ using namespace std;
 class box{
     int w,h,d;
     public:
-    box(int w,int h,int d);w(w),h(h),d(d){}
+    box(int w,int h,int d);w(w), h(h), d(d){}
     box():box(1,1,1){}
     box(int s):box(s,s,s){}
     int volume()const{return w*h*d;}
